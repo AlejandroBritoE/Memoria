@@ -33,7 +33,7 @@ function contartiempo(){
 }
 
 function bloqueartarjetas(){
-    for (let i = 0; i < 15; i++){
+    for (let i = 0; i <= 15; i++){
         let tarjetabloqueada = document.getElementById(i);
         tarjetabloqueada.innerHTML = numeros[i];
         tarjetabloqueada.disabled = true;
